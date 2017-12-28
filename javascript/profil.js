@@ -132,7 +132,7 @@ addComent.onclick = function commenting(e){
 
 		var newP = document.createElement("p");
 
-		newP.innerHTML = "<strong>user</strong> " + comments.value;
+		newP.innerHTML = "<strong>petar_np</strong> " + comments.value;
 
 		userText.appendChild(newP);
 
