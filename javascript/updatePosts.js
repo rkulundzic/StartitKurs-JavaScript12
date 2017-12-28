@@ -41,7 +41,8 @@ postBtn.onclick = function imgPosting(e) {
 
 	else if (postUpdate.value.indexOf("http") !== 0) {
 
-		alert('Invalid input!')
+		alert('Invalid input!');
+		postUpdate.value = "";
 	}
 
 	else {
